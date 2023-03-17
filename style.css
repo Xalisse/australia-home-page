@@ -35,13 +35,13 @@ body {
     text-transform: uppercase;
     font-family: 'Alice', serif;
     letter-spacing: 1px;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 
 #header {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 30px;
     align-items: center;
     padding: 1rem;
     align-content: center;
@@ -92,7 +92,7 @@ body {
     text-align: center;
 }
 h1 {
-    font-size: 7rem;
+    font-size: 3rem;
 }
 
 #description {

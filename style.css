@@ -104,6 +104,48 @@ h1 {
 
 
 /* for desktop */
+@media (min-width: 880px) {
+    #header {
+        border-bottom: 2px solid #ccc;
+        transform: rotate(-90deg) translate(-100%);
+        transform-origin: top left;
+        width: 100vh;
+        height: 4rem;
+        font-size: 0.8rem;
+    }
+    #header-title {
+        justify-self: center;
+        font-size: 2rem;
+    }
+    #header-icon {
+        transform: rotate(90deg);
+    }
+    #img-left {
+        top: 0;
+        left: 4rem;
+        height: 45%;
+        width: 20%;
+    }
+
+    #img-right {
+        bottom: -20px;
+        right: 0;
+        height: 65%;
+    }
+    #made-in {
+        width: 70%;
+    }
+    h1 {
+        font-size: 9rem;
+        letter-spacing: 4px;
+        line-height: 1;
+    }
+    #description {
+        width: 25%;
+        margin-left: 20%;
+        padding-top: 3rem;
+    }
+}
 /* @media (min-width: 880px) {
     body {
         line-height: 1.5;

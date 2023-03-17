@@ -35,7 +35,6 @@ body {
     text-transform: uppercase;
     font-family: 'Alice', serif;
     letter-spacing: 1px;
-    border: 1px solid red;
     font-size: 1rem;
 }
 
@@ -104,7 +103,7 @@ h1 {
 
 
 /* for desktop */
-@media (min-width: 880px) {
+@media only screen and (min-width: 880px) {
     #header {
         border-bottom: 2px solid #ccc;
         transform: rotate(-90deg) translate(-100%);
@@ -146,86 +145,3 @@ h1 {
         padding-top: 3rem;
     }
 }
-/* @media (min-width: 880px) {
-    body {
-        line-height: 1.5;
-        font-size: 0.8rem;
-    }
-    #header {
-        border-bottom: 2px solid #ccc;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        align-items: center;
-        padding: 1rem;
-        transform: rotate(-90deg) translate(-100%);
-        transform-origin: top left;
-        width: 100vh;
-        height: 4rem;
-        align-content: center;
-    }
-
-    #header-title {
-        justify-self: center;
-        font-size: 2rem;
-    }
-
-    #header-icon {
-        justify-self: end;
-        transform: rotate(90deg);
-    }
-
-    #content {
-        width: calc(100% - 4rem);
-        height: 100vh;
-        margin-left: auto;
-        margin-top: -4rem;
-        overflow: hidden;
-        display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
-    }
-
-    #img-left {
-        position: absolute;
-        top: 0;
-        left: 4rem;
-        height: 45%;
-        width: 20%;
-        object-fit: cover;
-        z-index: -1;
-    }
-
-    #img-right {
-        position: absolute;
-        bottom: -20px;
-        right: 0;
-        height: 65%;
-        z-index: -1;
-    }
-
-    #made-in {
-        display: flex;
-        align-items: end;
-        justify-content: space-around;
-        justify-self: center;
-        width: 80%;
-    }
-
-    #title {
-        align-self: center;
-    }
-
-    h1 {
-        font-family: 'Playfair Display', serif;
-        font-size: 9rem;
-        align-self: center;
-        text-align: center;
-        letter-spacing: 4px;
-        line-height: 1;
-    }
-
-    #description {
-        width: 20%;
-        margin-left: 20%;
-        padding-top: 3rem;
-    }
-} */
